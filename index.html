@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI Ticket</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/78353109f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="container mx-auto ">
+        <!-- navbar -->
+        <header class="container">
+            <nav class="">
+                <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                  <div class="relative flex h-16 items-center justify-center">
+                    <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                      <!-- Mobile menu button-->
+                      <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="absolute -inset-0.5"></span>
+                        <span class="sr-only">Open main menu</span>
+
+                        <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        
+                        <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="flex flex-1 items-center justify-center sm:items-stretch lg:justify-start ">
+                      <div class="flex flex-shrink-0 items-center sm:justify-start">
+                        <h1 class="font-bold text-2xl">S-Ticket</h1>
+                      </div>
+                    </div>
+                    <div class="hidden ">
+                        <div class=" justify-center flex space-x-4">
+                          <a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" >Home</a>
+                          <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
+                          <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Destination</a>
+                          <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Search</a>
+                        </div>
+                    </div>   
+                    <div class="flex space-x-2 border-[#1DD100] text-[#1DD100] px-5 py-2 rounded-md border-[1px] bg-[#1DD100] bg-opacity-10 ">
+                        <a href="">Bus</a> <img src="images/bus-icon.png" alt="" srcset="">
+                    </div>
+            </nav>
+        </header>
+        <!-- Banner Section -->
+        <section class="">
+            <div class="items-center text-center relative justify-center bg-no-repeat bg-center w-full h-[600px] bg-[url('/images/banner.png')]">
+                <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white space-y-4 ">
+                    <h1 class="text-5xl font-bold  ">End-to-End Travel with <br> <span class="text-[#1DD100]">S Paribahan</span> </h1>
+                <p>Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .
+                    Buy Tickets</p>
+                <button class="buy-ticket border-[#1DD100] px-5 py-2 rounded-md border-[1px] bg-[#1DD100]  btn">Buy Tickets</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Offers section -->
+        <section>
+            <div>
+                <h1 class="text-3xl font-medium text-center py-8">Best offers for you</h1>
+                <div class="flex justify-around flex-col lg:flex-row ">
+                    <!-- 15% off -->
+                    <div class="flex bg-[#FFBF0F] space-x-9 p-5 rounded-xl sm:my-5  ">
+                        <div class="border-dotted border-r-2 p-2  ">
+                            <h1 class="text-2xl font-bold">15% OFF</h1>
+                            <p class="text-l font-bold">on your next purchase</p>
+                            <p>use by january 2024</p>
+                        </div>
+                        <div class="items-center text-center flex flex-col justify-center">
+                            <h1 class="text-2xl font-bold">NEW<span class="text-xl">15</span></h1>
+                            <p>Coupon Code</p>
+                        </div>
+                    </div>
+                    <!-- 20% off -->
+                    <div class="flex bg-[#F78C9C] space-x-9 p-5 rounded-xl my-5 ">
+                        <div class="border-dotted border-r-2 p-2">
+                            <h1 class="text-2xl font-bold">20% OFF</h1>
+                            <p class="text-l font-bold">on your next purchase</p>
+                            <p>use by january 2024</p>
+                        </div>
+                        <div class="items-center text-center flex flex-col justify-center">
+                            <h1 class="text-2xl font-bold">Couple <span class="text-xl">20</span></h1>
+                            <p>Coupon Code</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items-center justify-center flex py-9">
+                    <button class="flex space-x-2 border-[#1DD100] text-[#1DD100] px-5 py-2 rounded-md border-[1px] ">See All offers</button>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Ticket purchase layout -->
+        <section class="bg-[#F7F8F8] rounded-3xl py-9">
+            <div class="text-center py-5 ">
+                <h1 class="text-2xl font-bold py-5">SI Paribahan</h1>
+                <p>Our bus service offers reliable transportation solutions, <br>
+                     ensuring safe and comfortable journeys for passengers of all ages</p>
+            </div>
+           <div class="flex flex-col lg:flex-row justify-around ">
+            <div class="bg-white lg:w-[65%] p-9 rounded-3xl">
+                <div class="flex justify-between">
+                        <div class="flex space-x-4 bg-white">
+                        <div>
+                             <img class="" src="images/bus-logo.png" alt="" srcset="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold">SI Paribahan</h1>
+                            <p> Coach-009-WEB!AC_Business</p>
+                        </div>
+                    </div>
+                    <div class="flex space-x-2 border-[#1DD100] text-[#1DD100] p-3 rounded-md border-[1px] bg-[#1DD100] bg-opacity-10 ">
+                        <a href="">40 Seats left</a> <img src="images/seat-gray.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="">
+                   <div class="flex my-3 justify-between border-dotted border-b-2  ">
+                    <h3>Route</h3>
+                    <h3 class="font-medium">Dhaka-Sylhet</h3>
+                   </div>
+                   <div class="flex my-3 justify-between border-dotted border-b-2 ">
+                    <h3>Departure Time</h3>
+                    <h3 class="font-medium">9:00 PM</h3>
+                   </div>
+                   <div class="flex justify-between">
+                    <h3 class="p-3 rounded-xl bg-[#F7F8F8] ">Boarding Point - Laxmipur</h3>
+                    <h3 class="p-3 rounded-xl bg-[#F7F8F8] "> Dropping Point - Bogura</h3>
+                    <h3 class="p-3 rounded-xl bg-[#F7F8F8] ">Est. Time - 11 Hour</h3>   
+                   </div>
+                </div>
+            </div>
+            <div class="border-dotted border-l-2 bg-[#1DD100]">
+                <hr >
+            </div>
+            <div class=" flex flex-col  bg-white rounded-3xl p-12 text-center justify-center items-center ">
+                <img src="images/fare.png" alt="">
+                <h2 class="font-bold">550 Taka</h2>
+                <p>Per Seat</p>
+            </div>
+           </div>
+
+           <!-- Seat Selection -->
+        
+            <div class="flex flex-col lg:flex-row justify-around py-5 rounded-3xl bg-white my-9">
+                <div class="lg:w-[60%] ">
+                    <h3 class="font-bold p-2">Select Your Seat</h3>
+                    <div class="flex justify-between border-dotted border-y-2 py-3">
+                        <div class="flex items-center justify-center">
+                            <img src="images/seat-gray.png" alt="">
+                            <p class="px-2">Available</p>
+                        </div>
+                        <div class="flex items-center justify-center ">
+                            <img src="images/seat-green-filled.png" alt="">
+                            <p class="px-2 text-[#1DD100]">Selected</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-[30%] ">
+                    
+                        <h3 class="  font-bold p-2">Select Your Seat</h3>
+                    <div class="flex justify-between">
+                        <div>
+                            <h3>Seat <span class="bg-[#1DD100] text-white px-2 rounded-xl font-bold">0</span></h3> 
+                        </div>
+                        <div>
+                           <h3> Class</h3>
+                        </div>
+                        <div>
+                            <h3>Price</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        </section>
+
+        
+
+    </main>
+</body>
+</html>
